@@ -140,7 +140,6 @@ The dataset contains ~47,680 road accident records from Dhaka (2007–2024), sou
 
 > Nur, Fernaz; Sahin Afridi. *Bangladesh Road Traffic Accident Dataset (2007–2024): Multi-source integration from ARI, BRTA, DMP, MP Unit.*
 
-Download the dataset from [Kaggle](https://www.kaggle.com/) and update the path in Cell 1:
 
 ```python
 DATA_PATH = "path/to/Modified_Accident_Dataset_final.xlsx"
