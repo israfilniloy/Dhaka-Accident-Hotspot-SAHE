@@ -39,8 +39,6 @@ SAHE achieves **74.89% accuracy** and **28.03% F1-score**, outperforming all ind
 | S.M. Abid Hossain Mahid | Dept. of Computer Science, American International University-Bangladesh |
 | Dr. Muhammad Hasibur Rashid Chayon | Dept. of Computer Science, American International University-Bangladesh |
 
-📎 [Read the Paper (PDF)](./paper/Dhaka_Accident_Hotspot_SAHE.pdf)
-
 ---
 
 ## 🏗️ Framework Architecture
@@ -118,24 +116,6 @@ Historical Accident Records (~47,680 records)
 
 > **Note:** The low precision values reflect the inherent class imbalance challenge (only ~10% of locations are hotspots). SAHE provides the best trade-off between hotspot detection and false-alarm reduction.
 
----
-
-## 📁 Repository Structure
-
-```
-Dhaka-Accident-Hotspot-SAHE/
-│
-├── Dhaka_Accident_Hotspot_SAHE.ipynb   # Main notebook: EDA + all models + SAHE
-├── requirements.txt                    # Python dependencies
-├── README.md                           # This file
-├── LICENSE                             # MIT License
-│
-├── paper/
-│   └── Dhaka_Accident_Hotspot_SAHE.pdf # Published paper
-│
-└── results/
-    └── (ROC curves, PR curves, confusion matrices, F1 bar charts)
-```
 
 ---
 
@@ -222,22 +202,6 @@ Decision Threshold = 0.65  (F1-optimized)
 ```
 
 CatBoost receives a slightly higher weight (0.40) due to its stronger performance on imbalanced data with categorical features.
-
----
-
-## ⚙️ Requirements
-
-| Package | Version |
-|---|---|
-| Python | ≥ 3.8 |
-| pandas | ≥ 1.3 |
-| numpy | ≥ 1.21 |
-| scikit-learn | ≥ 1.0 |
-| xgboost | ≥ 1.6 |
-| catboost | ≥ 1.0 |
-| matplotlib | ≥ 3.4 |
-| seaborn | ≥ 0.11 |
-| openpyxl | ≥ 3.0 |
 
 ---
 
