@@ -26,7 +26,7 @@ This repository contains the official implementation of the **Severity-Aware Hyb
 SAHE achieves **74.89% accuracy** and **28.03% F1-score**, outperforming all individual baselines while reducing false positives — making it more reliable for real-world road safety planning in Dhaka.
 
 ---
-
+```
 ## 📄 Paper
 
 **A Severity-Aware Hybrid Ensemble Framework for Predicting Road Accident Hotspots in Dhaka**
@@ -40,7 +40,7 @@ SAHE achieves **74.89% accuracy** and **28.03% F1-score**, outperforming all ind
 | Dr. Muhammad Hasibur Rashid Chayon | Dept. of Computer Science, American International University-Bangladesh |
 
 ---
-
+```
 ## 🏗️ Framework Architecture
 
 ```
